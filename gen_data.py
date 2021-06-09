@@ -31,4 +31,4 @@ X_train, X_test, y_train, y_test = model_selection.train_test_split(X, Y)
 xy = (X_train, X_test, y_train, y_test)
 np.save('./animal.npy', xy)
 
-
+print(len(X_train))

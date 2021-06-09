@@ -3,7 +3,7 @@ from urllib.request import urlretrieve
 from pprint import pprint
 import os, time, sys
 
-import flickrapi
+
 
 key = "93f5c6520580116ce6bc5b3e3546f74c"
 secret = "0b71669e4d32bb7d"
